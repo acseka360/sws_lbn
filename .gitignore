@@ -1,0 +1,15 @@
+production/
+*-backups/
+*.bak
+*.lck
+*.png
+*-bak
+*.gbr
+*.drl
+_autosave*
+*.step
+*.zip
+*.dxf
+*.g??
+*.jpg
+*.gbrjob
