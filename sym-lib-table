@@ -4,4 +4,5 @@
   (lib (name "ESP32-C3_SUPERMINI_SMD")(type "KiCad")(uri "${KIPRJMOD}/ESP32-C3_SUPERMINI_SMD.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-S3-WROOM-1U")(type "KiCad")(uri "${KIPRJMOD}/ESP32-S3-WROOM-1U.kicad_sym")(options "")(descr ""))
   (lib (name "E22-900M30S")(type "KiCad")(uri "${KIPRJMOD}/E22-900M30S.kicad_sym")(options "")(descr ""))
+  (lib (name "E73-2G4M08S1C")(type "KiCad")(uri "${KIPRJMOD}/E73-2G4M08S1C/E73-2G4M08S1C.kicad_sym")(options "")(descr ""))
 )
