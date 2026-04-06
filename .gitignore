@@ -14,3 +14,4 @@ _autosave*
 *.jpg
 *.gbrjob
 fp-info-cache
+.history
