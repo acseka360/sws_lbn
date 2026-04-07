@@ -1,4 +1,4 @@
-# Lora Small Battery Node
+# Lora Battery Node
 ## Solder WorkShop *Advanced Track*
 
 ### PCB
@@ -19,6 +19,15 @@ types.
 ### 3D printed case
 
 [Freecad 1.1](https://www.freecad.org/) made the 3d printed case files.
+
+
+### Bringup
+
+Initially a [J-Link](https://www.segger.com/products/debug-probes/j-link/) or
+equivalent swd flasher is needed to load the bootloader on the virgin chip.
+
+Use the *pca10056* type from the
+[Adafruit](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases) repo.
 
 
 ### Software
