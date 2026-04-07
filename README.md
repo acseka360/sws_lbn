@@ -1,9 +1,34 @@
-# Solder WorkShop Lora Small Battery Node
+# Lora Small Battery Node
+## Solder WorkShop *Advanced Track*
 
-## Check out the PCB files with [Kicad 10](https://www.kicad.org/)
+### PCB
 
-## The [BOM page](https://htmlpreview.github.io/?https://github.com/acseka360/sws_lsbn/blob/master/bom/ibom.html) helps during assembly
+Check out the PCB files with [Kicad 10](https://www.kicad.org/)
 
-## [Freecad 1.1](https://www.freecad.org/) made the 3d printed case files
+- Open the kicad\_pro project file
+- Look at the schematic with the "Schematic Editor"
+- Proceed to the "PCB editor" and push Alt-F3 to get into the 3D viewer
 
-## Merge the [Meshtastic](https://github.com/meshtastic/firmware) upstream repo into firmware to use the custom variant
+### Assembly
+
+The interactive [BOM
+webpage](https://htmlpreview.github.io/?https://github.com/acseka360/sws_lsbn/blob/master/bom/ibom.html)
+helps during assembly. You can mark components placed and check their exact
+types.
+
+### 3D printed case
+
+[Freecad 1.1](https://www.freecad.org/) made the 3d printed case files.
+
+
+### Software
+
+You will need [PlatformIO](https://platformio.org/) to compile and install it.
+
+First the bootstrapping firmware is needed, to set the IO voltages to 3.3V
+permanently from the default 1.8V.
+
+Then you can get the upstream
+[Meshtastic](https://github.com/meshtastic/firmware) repo, that you should merge 
+into the firmware folder, where our custom variant files already describe the 
+board.
