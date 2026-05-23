@@ -16,13 +16,10 @@ const uint32_t g_ADigitalPinMap[] = {
 
 void initVariant()
 {
-    /* Nothing board-specific to initialize at boot. */
+    NRF_POWER->DCDCEN = 1;
 }
 
 void variant_shutdown()
 {
-    /*
-     * No wake button or dedicated shutdown wake source on this design.
-     * HAS_CPU_SHUTDOWN is disabled in platformio.ini for this reason.
-     */
+    /* No wake source on this PCB — HAS_CPU_SHUTDOWN=0 in variant.h */
 }

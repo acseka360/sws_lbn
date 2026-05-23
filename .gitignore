@@ -15,3 +15,5 @@ _autosave*
 *.gbrjob
 fp-info-cache
 .history
+fabrication-toolkit-options.json
+.pio/
