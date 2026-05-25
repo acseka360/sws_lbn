@@ -1,7 +1,9 @@
 # Lora Battery Node
-## Solder WorkShop *Advanced Track*
+## Solder WorkShop - *Advanced Track*
 
 ### PCB
+
+![PCB](pcb.png)
 
 Check out the PCB files with [Kicad 10](https://www.kicad.org/)
 
@@ -9,19 +11,16 @@ Check out the PCB files with [Kicad 10](https://www.kicad.org/)
 - Look at the schematic with the "Schematic Editor"
 - Proceed to the "PCB editor" and push Alt-F3 to get into the 3D viewer
 
+
 ### Assembly
 
 The interactive [BOM
-webpage](https://htmlpreview.github.io/?https://github.com/acseka360/sws_lsbn/blob/master/bom/ibom.html)
+webpage](https://htmlpreview.github.io/?https://github.com/acseka360/sws_lbn/blob/master/bom/ibom.html)
 helps during assembly. You can mark components placed and check their exact
 types.
 
-### 3D printed case
 
-[Freecad 1.1](https://www.freecad.org/) made the 3d printed case files.
-
-
-### Bringup
+### Bootloader
 
 Initially a [J-Link](https://www.segger.com/products/debug-probes/j-link/) or
 equivalent swd flasher is needed to load the bootloader on the virgin chip.
@@ -30,7 +29,7 @@ Use the *pca10056* type from the
 [Adafruit](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases) repo.
 
 
-### Software
+### Firmware
 
 You will need [PlatformIO](https://platformio.org/) to compile and install it.
 
@@ -41,3 +40,10 @@ Then you can get the upstream
 [Meshtastic](https://github.com/meshtastic/firmware) repo, that you should merge 
 into the firmware folder, where our custom variant files already describe the 
 board.
+
+### 3D printed case
+
+[Freecad 1.1](https://www.freecad.org/) made the 3d printed case files.
+
+![case](case_noqi.png)
+
